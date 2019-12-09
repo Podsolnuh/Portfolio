@@ -1,0 +1,69 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    font-family: "Gabriela-Regular";
+    font-size: 24px;
+    margin: 0px;
+    padding: 30px;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: "Andika-Regular";
+    font-size: 16px;
+}
+
+div {
+    display: block;
+    height: auto;
+}
+
+@font-face {
+    font-family: "Gabriela-Regular" serif; 
+    src: url("../fonts/Gabriela-Regular.ttf");
+    font-family: "Andika-Regular" sans-serif;
+    src: url("../fonts/Andika-Regular.ttf");
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: "Gabriela-Regular";
+}
+
+.my_foto {
+    display: block;
+    align-self: flex-start;
+    height: 450px;
+    width: auto;
+    border-style: solid;
+    border-color: black;
+    padding: 30px;
+}
+
+.img {
+    display: flex;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+}
+
+hr {
+    height: 2px;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Gabriela-Regular";
+    padding: 10px;
+}
